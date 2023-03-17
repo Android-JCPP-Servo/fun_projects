@@ -1,0 +1,28 @@
+#instruction_panel {
+    width: 100%;
+    height: 100%;
+}
+
+.example {
+    border: 1px solid #ccc;
+    position: relative;
+    height: 200px;
+}
+
+.example p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.correct {
+    background-color: #00c21a;
+}
+
+@media screen and (min-width: 1080px) {
+    #instruction_panel {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
